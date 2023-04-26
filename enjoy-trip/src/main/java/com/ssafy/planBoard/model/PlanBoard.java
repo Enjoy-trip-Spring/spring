@@ -1,32 +1,32 @@
-package com.ssafy.board.model;
+package com.ssafy.planBoard.model;
 
-public class Board {
-	private int boardNo;
-	private String boardTitle;
-	private String boardContent;	
-	private String userId;	
+public class PlanBoard {
+	private int planBoardNo;
+	private String planBoardTitle;
+	private String planBoardContent;
+	private String userId;
 	private int hit;
-	private String createDate;	
-	private int boardLike;	
+	private String createDate;
+	private int boardLike;
 	private int boardCommentCnt;
 	
-	public int getBoardNo() {
-		return boardNo;
+	public int getPlanBoardNo() {
+		return planBoardNo;
 	}
-	public void setBoardNo(int boardNo) {
-		this.boardNo = boardNo;
+	public void setPlanBoardNo(int planBoardNo) {
+		this.planBoardNo = planBoardNo;
 	}
-	public String getBoardTitle() {
-		return boardTitle;
+	public String getPlanBoardTitle() {
+		return planBoardTitle;
 	}
-	public void setBoardTitle(String boardTitle) {
-		this.boardTitle = boardTitle;
+	public void setPlanBoardTitle(String planBoardTitle) {
+		this.planBoardTitle = planBoardTitle;
 	}
-	public String getBoardContent() {
-		return boardContent;
+	public String getPlanBoardContent() {
+		return planBoardContent;
 	}
-	public void setBoardContent(String boardContent) {
-		this.boardContent = boardContent;
+	public void setPlanBoardContent(String planBoardContent) {
+		this.planBoardContent = planBoardContent;
 	}
 	public String getUserId() {
 		return userId;
@@ -57,5 +57,5 @@ public class Board {
 	}
 	public void setBoardCommentCnt(int boardCommentCnt) {
 		this.boardCommentCnt = boardCommentCnt;
-	}	
+	}
 }
